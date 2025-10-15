@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">ProyekTMII</string>
+    <string name="app_name">Proyek Bandung</string>
     <string name="header_tmii">Header TMII</string>
-    <string name="pintu_masuk">Pintu Masuk</string>
+    <string name="pintu_masuk">Absensi</string>
     <string name="parkir">Parkir</string>
-    <string name="destinasi">Destinasi</string>
+    <string name="destinasi">Koperasi</string>
     <string name="kantin">Kantin</string>
     <string name="cek_saldo">Cek Saldo</string>
-    <string name="pintu_masuk_icon">Ikon Pintu Masuk</string>
+    <string name="pintu_masuk_icon">Ikon Absensi</string>
     <string name="parkir_icon">Ikon Parkir</string>
-    <string name="destinasi_icon">Ikon Destinasi</string>
+    <string name="destinasi_icon">Ikon Koperasi</string>
     <string name="kantin_icon">Ikon Kantin</string>
     <string name="cek_saldo_icon">Ikon Cek Saldo</string>
     <string name="tmii_logo_footer">Logo TMII Footer</string>
-    <string name="app_name_full">Taman Mini Indonesia Indah</string>
+    <string name="app_name_full">Bandung</string>
     <string name="background_ombak">Background Ombak</string>
     <string name="back_button">Tombol Kembali</string>
-    <string name="destination_menu_title">Destinasi</string>
+    <string name="destination_menu_title">Koperasi</string>
     <string name="museum_icon">Ikon Museum</string>
     <string name="museum_title">Museum</string>
     <string name="wahana_icon">Ikon Wahana dan Rekreasi</string>
@@ -47,7 +47,7 @@
     <string name="silahkan_masuk">Silahkan Masuk</string>
     <string name="nfc_payment_instruction_format">Silakan tempelkan kartu untuk membayar Rp %d</string>
     <string name="selamat_menikmati">Selamat Menikmati</string>
-    <string name="destination_selection_title">Pilih Destinasi</string>
+    <string name="destination_selection_title">Pilih Barang Koperasi</string>
     <string name="lanjut_ke_keranjang">Lanjut ke Keranjang</string>
     <string name="nfc_payment_instruction">Silakan tempelkan kartu untuk membayar</string>
     <string name="nfc_icon_desc">Ikon NFC</string>
@@ -56,8 +56,11 @@
     <string name="sukses_icon">Ikon Sukses</string>
     <string name="tmii_logo">Logo TMII</string>
     <string name="pilih_layanan">Pilih Layanan</string>
-    <string name="destination_title">Pilih Destinasi</string>
+    <string name="destination_title">Pilih Barang Koperasi</string>
     <string name="total_tiket">Total Tiket</string>
+    <string name="koperasi_selection_title">Pilih Barang Koperasi</string>
+    <string name="lanjut_ke_pembayaran">Lanjut ke Pembayaran</string>
+    <string name="tambah_button">Tambah</string>
 
 
 </resources>

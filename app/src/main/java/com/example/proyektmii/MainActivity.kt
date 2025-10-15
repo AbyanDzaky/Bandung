@@ -22,7 +22,7 @@ class MainActivity : AppCompatActivity() {
             }
 
             findViewById<CardView>(R.id.card_destinasi).setOnClickListener {
-                startActivity(Intent(this, DestinationMenuActivity::class.java))
+                startActivity(Intent(this, KoperasiMenuActivity::class.java))
             }
 
             findViewById<CardView>(R.id.card_kantin).setOnClickListener {

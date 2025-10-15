@@ -25,7 +25,7 @@
                 android:scaleType="centerCrop"
                 android:contentDescription="@string/header_tmii"/>
 
-            <!-- Title di atas gambar -->
+            <!-- Title di atas gambar - DISABLE (disembunyikan) -->
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -37,14 +37,15 @@
                 android:shadowColor="#80000000"
                 android:shadowDx="2"
                 android:shadowDy="2"
-                android:shadowRadius="4"/>
+                android:shadowRadius="4"
+                android:visibility="gone" />
         </RelativeLayout>
 
         <!-- Title section -->
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Pilih Layanan"
+            android:text="@string/pilih_layanan"
             android:layout_gravity="center_horizontal"
             android:textSize="16sp"
             android:textStyle="bold"
@@ -68,6 +69,7 @@
                 android:orientation="horizontal"
                 android:layout_marginBottom="10dp">
 
+                <!-- Pintu Masuk -> Absensi (gunakan @string/pintu_masuk which is Absensi) -->
                 <androidx.cardview.widget.CardView
                     android:id="@+id/card_pintu_masuk"
                     android:layout_width="0dp"
@@ -91,14 +93,14 @@
                         <ImageView
                             android:layout_width="48dp"
                             android:layout_height="48dp"
-                            android:src="@drawable/pintumasuk"
+                            android:src="@drawable/absensi"
                             android:contentDescription="@string/pintu_masuk_icon"/>
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="6dp"
-                            android:text="Pintu Masuk"
+                            android:text="@string/pintu_masuk"
                             android:textStyle="bold"
                             android:textColor="@color/colorPrimary"
                             android:textSize="12sp"
@@ -136,7 +138,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="6dp"
-                            android:text="Parkir"
+                            android:text="@string/parkir"
                             android:textStyle="bold"
                             android:textColor="@color/colorPrimary"
                             android:textSize="12sp"
@@ -152,6 +154,7 @@
                 android:orientation="horizontal"
                 android:layout_marginBottom="10dp">
 
+                <!-- Destinasi -> Koperasi -->
                 <androidx.cardview.widget.CardView
                     android:id="@+id/card_destinasi"
                     android:layout_width="0dp"
@@ -175,14 +178,14 @@
                         <ImageView
                             android:layout_width="48dp"
                             android:layout_height="48dp"
-                            android:src="@drawable/destinasi"
+                            android:src="@drawable/koperasi"
                             android:contentDescription="@string/destinasi_icon"/>
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="6dp"
-                            android:text="Destinasi"
+                            android:text="@string/destinasi"
                             android:textStyle="bold"
                             android:textColor="@color/colorPrimary"
                             android:textSize="12sp"
@@ -220,7 +223,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="6dp"
-                            android:text="Kantin"
+                            android:text="@string/kantin"
                             android:textStyle="bold"
                             android:textColor="@color/colorPrimary"
                             android:textSize="12sp"
@@ -268,7 +271,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="6dp"
-                            android:text="Cek Saldo"
+                            android:text="@string/cek_saldo"
                             android:textStyle="bold"
                             android:textColor="@color/colorPrimary"
                             android:textSize="12sp"
@@ -305,7 +308,7 @@
                     android:text="@string/app_name_full"
                     android:textSize="12sp"
                     android:textStyle="bold"
-                    android:textColor="@color/colorRed"
+                    android:textColor="@color/colorPrimary"
                     android:layout_marginStart="4dp"/>
             </LinearLayout>
 
@@ -313,7 +316,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="30dp"
                 android:layout_marginTop="6dp"
-                android:background="@color/colorRed"/>
+                android:background="@color/colorPrimary"/>
         </LinearLayout>
     </LinearLayout>
 </ScrollView>

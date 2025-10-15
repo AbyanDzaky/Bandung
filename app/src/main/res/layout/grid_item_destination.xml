@@ -18,17 +18,18 @@
             android:id="@+id/destination_name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Nama Destinasi"
+            android:text="Nama Barang"
             android:textSize="14sp"
             android:textStyle="bold"
             android:textColor="@color/black"
             android:gravity="center" />
 
+        <!-- Harga sekarang hanya menampilkan 'Rp ...' -->
         <TextView
             android:id="@+id/destination_price"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Tiket: Rp 0"
+            android:text="Rp 0"
             android:textSize="12sp"
             android:textColor="@color/black" />
 
@@ -82,10 +83,10 @@
             android:layout_width="match_parent"
             android:layout_height="36dp"
             android:layout_marginTop="8dp"
-            android:text="Tambah"
+            android:text="@string/tambah_button"
             android:textSize="12sp"
             android:textColor="@color/white"
-            android:backgroundTint="#1976D2"
+            android:backgroundTint="@color/colorPrimary"
             android:visibility="visible"/>
     </LinearLayout>
 </androidx.cardview.widget.CardView>

@@ -5,8 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/colorBackground"
-    tools:context=".ui.screens.DestinationSelectionActivity">
+    tools:context=".ui.screens.KoperasiSelectionActivity">
 
+    <!-- background ombak (tetap) -->
     <ImageView
         android:id="@+id/background_ombak"
         android:layout_width="match_parent"
@@ -14,7 +15,7 @@
         android:layout_alignParentBottom="true"
         android:src="@drawable/ombak"
         android:scaleType="fitXY"
-        android:contentDescription="@string/background_ombak"/>
+        android:contentDescription="@string/background_ombak" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -35,17 +36,17 @@
                 android:layout_alignParentStart="true"
                 android:background="@drawable/rounded_back_button"
                 android:src="@drawable/ic_arrow_back_black"
-                android:contentDescription="@string/back_button"/>
+                android:contentDescription="@string/back_button" />
 
             <TextView
                 android:id="@+id/destination_selection_title"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"
-                android:text="@string/destination_selection_title"
+                android:text="@string/koperasi_selection_title"
                 android:textSize="22sp"
                 android:textStyle="bold"
-                android:textColor="@color/black"/>
+                android:textColor="@color/black" />
 
         </RelativeLayout>
 
@@ -69,7 +70,7 @@
             android:layout_marginTop="20dp"
             android:layout_marginBottom="20dp"
             android:textColor="@color/white"
-            android:backgroundTint="#1976D2"
+            android:backgroundTint="@color/colorPrimary"
             android:background="@drawable/rounded_button_blue"
             android:enabled="false"/>
     </LinearLayout>

@@ -65,8 +65,8 @@
         <activity android:name=".ui.screens.CanteenMenuActivity" android:exported="true" />
         <activity android:name=".ui.screens.CartActivity" android:exported="true" />
         <activity android:name=".ui.screens.CheckBalanceActivity" android:exported="true" />
-        <activity android:name=".ui.screens.DestinationMenuActivity" android:exported="true" />
-        <activity android:name=".ui.screens.DestinationSelectionActivity" android:exported="true" />
+        <activity android:name=".ui.screens.KoperasiMenuActivity" android:exported="true" />
+        <activity android:name=".ui.screens.KoperasiSelectionActivity" android:exported="true" />
         <activity android:name=".ui.screens.PintuMasukActivity" android:exported="true" />
         <activity android:name=".ui.screens.ParkingActivity" android:exported="true" />
         <activity android:name=".ui.screens.ParkingSuccessActivity" android:exported="true" />

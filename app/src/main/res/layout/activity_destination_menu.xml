@@ -5,8 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/colorBackground"
-    tools:context=".ui.screens.DestinationMenuActivity">
+    tools:context=".ui.screens.KoperasiMenuActivity">
 
+    <!-- Background Ombak -->
     <ImageView
         android:id="@+id/background_ombak"
         android:layout_width="match_parent"
@@ -14,14 +15,16 @@
         android:layout_alignParentBottom="true"
         android:scaleType="fitXY"
         android:src="@drawable/ombak"
-        android:contentDescription="@string/background_ombak"/>
+        android:contentDescription="@string/background_ombak" />
 
+    <!-- Konten Utama -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:paddingHorizontal="20dp">
 
+        <!-- Header -->
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -35,87 +38,96 @@
                 android:layout_alignParentStart="true"
                 android:background="@drawable/rounded_back_button"
                 android:src="@drawable/ic_arrow_back_black"
-                android:contentDescription="@string/back_button"/>
+                android:contentDescription="@string/back_button" />
 
             <TextView
+                android:id="@+id/koperasi_menu_title"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"
-                android:text="@string/destination_menu_title"
+                android:text="Menu Koperasi"
                 android:textSize="22sp"
                 android:textStyle="bold"
-                android:textColor="@color/black"/>
-
+                android:textColor="@color/black" />
         </RelativeLayout>
 
         <Space
             android:layout_width="match_parent"
-            android:layout_height="60dp"/>
+            android:layout_height="60dp" />
 
+        <!-- Card 1: Alat Tulis -->
         <androidx.cardview.widget.CardView
-            android:id="@+id/card_museum"
+            android:id="@+id/card_alat_tulis"
             android:layout_width="match_parent"
             android:layout_height="120dp"
             android:layout_margin="8dp"
             app:cardCornerRadius="12dp"
             app:cardElevation="4dp">
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="horizontal"
                 android:gravity="center_vertical"
                 android:padding="16dp">
+
                 <ImageView
                     android:layout_width="80dp"
                     android:layout_height="80dp"
-                    android:src="@drawable/museum"
+                    android:src="@drawable/alat_tulis"
                     android:scaleType="centerCrop"
-                    android:contentDescription="@string/museum_icon"/>
+                    android:contentDescription="Ikon alat tulis" />
+
                 <TextView
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:layout_marginStart="16dp"
-                    android:text="@string/museum_title"
+                    android:text="Alat Tulis"
                     android:textSize="18sp"
                     android:textStyle="bold"
-                    android:textColor="@color/black"/>
+                    android:textColor="@color/black" />
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
         <Space
             android:layout_width="match_parent"
-            android:layout_height="20dp"/>
+            android:layout_height="20dp" />
 
+        <!-- Card 2: Kebutuhan Kantor -->
         <androidx.cardview.widget.CardView
-            android:id="@+id/card_wahana"
+            android:id="@+id/card_kebutuhan_kantor"
             android:layout_width="match_parent"
             android:layout_height="120dp"
             android:layout_margin="8dp"
             app:cardCornerRadius="12dp"
             app:cardElevation="4dp">
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="horizontal"
                 android:gravity="center_vertical"
                 android:padding="16dp">
+
                 <ImageView
                     android:layout_width="80dp"
                     android:layout_height="80dp"
-                    android:src="@drawable/wr"
+                    android:src="@drawable/kebutuhan_kantor"
                     android:scaleType="centerCrop"
-                    android:contentDescription="@string/wahana_icon"/>
+                    android:contentDescription="Ikon kebutuhan kantor" />
+
                 <TextView
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:layout_marginStart="16dp"
-                    android:text="@string/wahana_title"
+                    android:text="Kebutuhan Kantor"
                     android:textSize="18sp"
                     android:textStyle="bold"
-                    android:textColor="@color/black"/>
+                    android:textColor="@color/black" />
             </LinearLayout>
         </androidx.cardview.widget.CardView>
+
     </LinearLayout>
 </RelativeLayout>
